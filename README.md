@@ -25,3 +25,7 @@ Let me do it.
 
 
 That's all. Simple? Yes, if you have a good tutorial.
+
+on mac: gcc -shared -I/usr/include/python2.7/ -lpython2.7 -o cos_module.so Source.cpp
+import cos_module
+cos_module.cos_func(5)
